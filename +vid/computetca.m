@@ -245,7 +245,7 @@ if ~skipframe % do the following only if cross was detected
     end
     
     % extract regions of frame for TCA calculation
-    stimheight=125;
+    stimheight=250;
     R=frame(Ry:3:Ry+stimheight, Rx:Rx+255);
     G=frame(Gy:3:Gy+stimheight, Gx:Gx+255);
     IR=frame(IRy:3:IRy+stimheight, IRx:IRx+255);
